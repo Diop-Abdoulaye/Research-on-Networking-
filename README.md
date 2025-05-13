@@ -4,17 +4,17 @@ NETWORKING LEARNING CHECKLIST
 
 
 
-[ ] Research: IP addresses, MAC addresses, TCP/UDP, DNS, ports.
+- [ ] Research: IP addresses, MAC addresses, TCP/UDP, DNS, ports.
 
-[ ] Study how data moves through a network.
+- [ ] Study how data moves through a network.
 
-[ ] Read basic socket programming code in Python (socket module).
+- [ ] Read basic socket programming code in Python (socket module).
 
 Mini Project:
 
-[ ] Create a Python TCP client-server chat program.
+- [ ] Create a Python TCP client-server chat program.
 
-[ ] Modify the chat app to support multiple clients using threading.
+- [ ] Modify the chat app to support multiple clients using threading.
 
 
 ---
@@ -23,15 +23,15 @@ Mini Project:
 
 
 
-[ ] Research LAN vs. WAN, wired vs. wireless connections.
+- [ ] Research LAN vs. WAN, wired vs. wireless connections.
 
-[ ] Study how Python can send files/data over local networks.
+- [ ] Study how Python can send files/data over local networks.
 
 Mini Project:
 
-[ ] Build a local file transfer system using sockets.
+- [ ] Build a local file transfer system using sockets.
 
-[ ] Set up a Raspberry Pi to receive files over Wi-Fi and store them.
+- [ ] Set up a Raspberry Pi to receive files over Wi-Fi and store them.
 
 
 ---
@@ -40,17 +40,17 @@ Mini Project:
 
 
 
-[ ] Study HTTP and REST APIs.
+- [ ] Study HTTP and REST APIs.
 
-[ ] Learn how embedded devices expose data (ESP32, Pi servers, etc.).
+- [ ] Learn how embedded devices expose data (ESP32, Pi servers, etc.).
 
-[ ] Read code using requests and http.server in Python.
+- [ ] Read code using requests and http.server in Python.
 
 Mini Project:
 
-[ ] Build a REST API in Python to receive sensor data.
+- [ ] Build a REST API in Python to receive sensor data.
 
-[ ] Create a client on another device to send data to this API.
+- [ ] Create a client on another device to send data to this API.
 
 
 ---
@@ -59,15 +59,15 @@ Mini Project:
 
 
 
-[ ] Research tools: ping, ipconfig/ifconfig, nmap, Wireshark.
+- [ ] Research tools: ping, ipconfig/ifconfig, nmap, Wireshark.
 
-[ ] Study Python network scanning with scapy.
+- [ ] Study Python network scanning with scapy.
 
 Mini Project:
 
-[ ] Write a Python script to scan devices on your local network.
+- [ ] Write a Python script to scan devices on your local network.
 
-[ ] Enhance it to identify the device type or open ports.
+- [ ] Enhance it to identify the device type or open ports.
 
 
 ---
@@ -76,15 +76,15 @@ Mini Project:
 
 
 
-[ ] Study: packet sniffing, man-in-the-middle (MITM), spoofing basics.
+- [ ] Study: packet sniffing, man-in-the-middle (MITM), spoofing basics.
 
-[ ] Research platforms like TryHackMe or OverTheWire for legal practice.
+- [ ] Research platforms like TryHackMe or OverTheWire for legal practice.
 
 Mini Project:
 
-[ ] Use scapy to sniff packets and extract simple info (e.g., IP addresses).
+- [ ] Use scapy to sniff packets and extract simple info (e.g., IP addresses).
 
-[ ] Simulate a MITM attack in a test network to intercept a message.
+- [ ] Simulate a MITM attack in a test network to intercept a message.
 
 
 ---
@@ -93,12 +93,12 @@ Mini Project:
 
 
 
-[ ] Learn how microcontrollers use MQTT, HTTP, or sockets.
+- [ ] Learn how microcontrollers use MQTT, HTTP, or sockets.
 
-[ ] Read code examples of ESP32 sending data via Wi-Fi.
+- [ ] Read code examples of ESP32 sending data via Wi-Fi.
 
 Mini Project:
 
-[ ] Build a network of 2 ESP32s: one as sensor sender, one as display receiver.
+- [ ] Build a network of 2 ESP32s: one as sensor sender, one as display receiver.
 
-[ ] Create a desktop Python program that connects and logs the data.
+- [ ] Create a desktop Python program that connects and logs the data.
