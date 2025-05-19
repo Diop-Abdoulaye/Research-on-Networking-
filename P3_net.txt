@@ -1,0 +1,65 @@
+
+##Network Device Communication
+
+This step focuses on how devices like microcontrollers, computers, or apps talk to each other using HTTP and APIs.
+
+
+---
+
+### Study HTTP and REST APIs
+
+Quick Summary:
+
+HTTP (Hypertext Transfer Protocol) is the language of the web — it allows devices to send/receive data via URLs.
+
+REST API (Representational State Transfer) uses HTTP methods like:
+
+GET → retrieve data
+
+POST → send data
+
+PUT → update data
+
+DELETE → remove data
+
+Used by:
+
+Websites
+
+IoT devices (like ESP32, Raspberry Pi)
+
+Mobile apps
+---
+
+###Learn how embedded devices expose data
+
+ESP32 can serve a small web page (with data) or push data via HTTP POST to a server.
+
+Raspberry Pi can act like a mini-server using Python or Node.js.
+
+
+###HTTP/REST API vs Socket — What’s the Difference?
+---
+
+Why Use HTTP (REST API)?
+
+Easy to connect to from any device or browser.
+
+Works well with microcontrollers (ESP32, Arduino, etc.).
+
+Easier to debug (can test using curl/Postman).
+
+Useful when you only need to send or get data occasionally.
+
+Firewalls and routers usually allow HTTP, while sockets may be blocked.
+---
+
+Why Use Sockets?
+
+Better for real-time communication (e.g., chat, multiplayer games).
+
+Can transfer large files, streams, or continuous data efficiently.
+
+More efficient when keeping connections open and fast.
+
+Requires both sides to be actively connected and ready.

@@ -1,0 +1,51 @@
+
+
+## Cable and Wireless Data Transmission
+
+This step focuses on how data moves between devices via LAN (wired) and Wi-Fi (wireless), and how to transfer files using Python over a local network.
+---
+
+###Research LAN vs. WAN, wired vs. wireless
+
+Quick Summary:
+
+LAN (Local Area Network):
+
+Small area (e.g., home, office).
+
+Devices are connected via Ethernet cable or Wi-Fi.
+
+Fast and low-latency.
+
+
+WAN (Wide Area Network):
+
+Large area (e.g., Internet).
+
+Connects multiple LANs over long distances.
+Usually slower, requires ISPs.
+
+
+Wired (Ethernet):
+
+Stable, high-speed, no interference.
+
+Needs physical cables.
+
+
+Wireless (Wi-Fi):
+
+Convenient, mobile.
+
+Slightly more prone to interference or drops.
+---
+
+###Study how Python can send files/data over local networks
+
+This uses:
+
+Sockets (like our chat app).
+
+File reading/writing in binary mode.
+
+Optionally: use threading to handle multiple transfers.
